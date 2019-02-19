@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference
+        android:id="@+id/editextpref_name"
+        android:key="@string/pref_key_name"
+        android:title="@string/pref_title_name" />
+
+    <EditTextPreference
+        android:id="@+id/editextpref_age"
+        android:key="@string/pref_key_age"
+        android:title="@string/pref_title_age"/>
+
+    <EditTextPreference
+        android:id="@+id/editextpref_email"
+        android:key="@string/pref_key_email"
+        android:title="@string/pref_title_email"/>
+
+    <EditTextPreference
+        android:id="@+id/editextpref_height"
+        android:key="@string/pref_key_height"
+        android:title="@string/pref_title_height"/>
+
+    <CheckBoxPreference
+        android:id="@+id/checkboxpref_lazy"
+        android:key="@string/pref_key_lazy"
+        android:title="@string/pref_title_lazy"
+        android:summaryOn="Sim"
+        android:summaryOff="Não"/>
+</PreferenceScreen>
